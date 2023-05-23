@@ -1,0 +1,256 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.headerDiv{
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.servicesDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicesDiv div{
+  margin: 10px;
+}
+
+.linksContent{
+  background-color: bisque;
+  width: 100vw;
+  padding: 40px 10px 0 50px;
+  height: 88.5vh;
+  overflow-y: scroll;
+  /* overflow-x: hidden; */
+}
+
+.navContainer{
+  margin-top: 30px;
+}
+
+.navContainer a{
+  color: rgb(10, 10, 156);
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 150px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.productsDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productsDiv div{
+  margin: 15px;
+}
+
+.loginDiv{
+  background-color: aqua;
+  width: 30%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 2px solid gray;
+}
+
+select{
+  width: 100px;
+}
+
+.productCardTitle{
+  text-align: center;
+}
+
+.selectAndLogoutDiv{
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.selectAndLogoutDiv a{  
+  color: rgb(255, 183, 0);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.selectAndLogoutDiv a:hover{
+  text-decoration:underline;
+  color: beige;
+}
+
+/* follow table*/
+
+
+
+.dataTable, .dataTable th, .dataTable td{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.verticalAccordian{
+  margin-top: 0px;
+  min-width: 200px;
+  height: 100%;
+  background-color: #e8f4f4;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #f0f4f4;
+}
+
+.verticalAccordianCollapse{
+  min-width: 80px;
+  min-height: 100%;
+  background-color: #ecf3f3;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #edf4f4;
+}
+
+.accordianDiv{
+  display: flex;
+}
+
+.accordianContainer{
+  width: 100px;
+  height: 88vh;
+}
+
+.tableDiv{
+  width: 89vw;
+  overflow-x: scroll;
+  border: 3px solid gray;
+}
+
+.tableDiv tbody{
+  width: 4650px;
+  display: block;
+  overflow-y: auto;
+  height: 70vh;
+  overflow-x: hidden;
+}
+
+.tableDiv thead tr{
+  display: block;
+}
+
+.tableDiv thead th{
+  height: 50px;
+  background-color: rgb(149, 149, 231);
+}
+
+.tableDiv th,
+.tableDiv td{  
+  min-width: 150px;
+}
+
+.tableDiv td{  
+  font-size: small;
+}
+
+.subTotalRow{
+  color: orangered;
+  font-weight: 600;
+  padding: 40px;
+}
+
+.subTotalRow td{
+  background-color: rgb(240, 228, 216);
+  padding: 5px;
+}
+
+.indexCell p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid black;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* sign up form css*/
+
+.signUpFormDiv{
+  width: 180px;
+  background-color: aquamarine;
+}
+
+.signUpFormDiv span{
+  margin: 10px;
+  position: relative;
+}
+
+.signUpFormDiv span label{
+  position: absolute
+}
+
+/* menubar  */
+
+.menuBar{
+  width: 270px;
+  height: 100vh;
+  font-size: 1.3rem;
+  background-color: bisque;
+  padding: 15px 15px 0 20px;
+  overflow-y: scroll;
+  font-weight: 600;
+}
+
+.menuBar::-webkit-scrollbar {
+  display: none;
+}
+
+.p-menuitem .p-menuitem-text{
+  font-weight: 300;
+  color: rgb(19, 4, 222);
+  padding: 3px;
+  text-shadow: 0.5px 0.5px rgb(125, 175, 241);
+}
+
+.p-menuitem-text{
+  font-size: 1rem;
+}
+
+.p-panelmenu-header{
+  /* width: 150px;
+  border-radius: 30px;
+  background-color: rgb(107, 235, 107); */
+  padding: 14px;
+  margin: 2px;
+  /* display: flex; */
+}
+
+.p-menuitem{
+  width: 200px;
+  margin-left: 20px;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-panelmenu-icon,
+.p-menuitem-icon{
+  color: orangered; 
+  order: 1;
+  margin-left: auto; 
+}
+
